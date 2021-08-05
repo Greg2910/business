@@ -7,12 +7,28 @@ const data = {
       email: 'greglouis1738@gmail.com',
       password: bcrypt.hashSync('140118Ng', 8),
       isAdmin: true,
+      isSeller: true,
+      seller: {
+        name: 'GregSeller',
+        logo: '/images/prod1.png',
+        description: 'best seller',
+        rating: 4.5,
+        numReviews: 120,
+      },
     },
     {
       name: 'Nath12',
       email: 'nath14@gmail.com',
       password: bcrypt.hashSync('140118Ng', 8),
       isAdmin: true,
+      isSeller: true,
+      seller: {
+        name: 'NathaliaSeller',
+        logo: '/images/prod1.png',
+        description: 'best seller',
+        rating: 4.5,
+        numReviews: 120,
+      },
     },
     {
       name: 'testing',
